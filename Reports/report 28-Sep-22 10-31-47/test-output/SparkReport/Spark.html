@@ -1,0 +1,2671 @@
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<title>E-Commerce Framework</title>
+<link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
+<link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet">
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@7cc78ce/spark/js/jsontree.js"></script>
+<style type="text/css"></style></head><body class="spa bdd-report dark">
+  <div class="app">
+    <div class="layout">
+<div class="header navbar">
+<div class="vheader">
+<div class="nav-logo">
+<a href="#">
+<div class="logo" style="background-image: url('https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png')"></div>
+</a>
+</div>
+<ul class="nav-left">
+<li class="search-box">
+<a class="search-toggle" href="#">
+<i class="search-icon fa fa-search"></i>
+<i class="search-icon-close fa fa-close"></i>
+</a>
+</li>
+<li class="search-input"><input id="search-tests" class="form-control" type="text" placeholder="Search..."></li>
+</ul>
+<ul class="nav-right">
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Amazon ikigai Book</span></a>
+</li>
+<li class="m-r-10">
+<a href="#"><span class="badge badge-primary">Sep 28, 2022 10:31:47</span></a>
+</li>
+</ul>
+</div>
+</div><div class="side-nav">
+<div class="side-nav-inner">
+<ul class="side-nav-menu">
+<li class="nav-item dropdown" onclick="toggleView('test-view')">
+<a id="nav-test" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-list"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('category-view')">
+<a id="nav-category" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-tag"></i></span>
+</a>
+</li>
+<li class="nav-item dropdown" onclick="toggleView('dashboard-view')">
+<a id="nav-dashboard" class="dropdown-toggle" href="#">
+<span class="ico"><i class="fa fa-bar-chart"></i></span>
+</a>
+</li>
+</ul>
+</div>
+</div>      <div class="vcontainer">
+        <div class="main-content">
+<div class="test-wrapper row view test-view">
+  <div class="test-list">
+    <div class="test-list-tools">
+<ul class="tools pull-left">
+<li><a href="#"><span class="font-size-14">Tests</span></a></li>
+</ul>
+<ul class="tools text-right">
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
+<ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
+<div class="dropdown-divider"></div>
+<a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
+</ul>
+</li>
+<li class="dropdown">
+<a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-tag"></i></a>
+<ul id="tag-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" href="#">@TestUserName</a><a class="dropdown-item" href="#">@reg</a><a class="dropdown-item" href="#">@TestUnavailabilty</a><a class="dropdown-item" href="#">@TestIkigaibook</a><a class="dropdown-item" href="#">@TestUserpassword</a>
+</ul>
+</li>
+</ul>
+</div>    <div class="test-list-wrapper scrollable">
+      <ul class="test-list-item">
+        <li class="test-item"  status="pass" test-id="1"
+          author=""
+          tag=""
+          device="">
+          <div class="test-detail">
+            <p class="name">To search for the ikigai book in amazon site</p>
+            <p class="text-sm">
+              <span>10:31:51 am</span> / <span>00:01:50:574</span>
+              <span class="badge pass-bg log float-right">Pass</span>
+            </p>
+          </div>
+          <div class="test-contents d-none">
+<div class="detail-head">
+<div class="p-v-10">
+<div class="info">
+<h5 class="test-status text-pass">To search for the ikigai book in amazon site</h5>
+<span class='badge badge-success'>09.28.2022 10:31:51 am</span>
+<span class='badge badge-danger'>09.28.2022 10:33:41 am</span>
+<span class='badge badge-default'>00:01:50:574</span>
+&middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
+<span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
+<span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
+</div>
+<div class="m-t-10 m-l-5"></div>
+</div>
+</div>
+<div class="accordion mt-4">
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="2"><span class="badge log pass-bg mr-2">Pass</span>Validate Username in Login page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="3"><span class="badge log pass-bg mr-2">Pass</span>Validate Username in Login page</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded1.png' src="screenshot/embedded1.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user launch the Amazon website</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded2.png' src="screenshot/embedded2.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded3.png' src="screenshot/embedded3.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enter the UserName "9976188853"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded4.png' src="screenshot/embedded4.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded5.png' src="screenshot/embedded5.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User click on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded6.png' src="screenshot/embedded6.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded7.png' src="screenshot/embedded7.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enter the password "9788188673"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded8.png' src="screenshot/embedded8.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded9.png' src="screenshot/embedded9.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User click on the login button and its navigate to my account page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded10.png' src="screenshot/embedded10.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded11.png' src="screenshot/embedded11.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User click on signout buttons</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded12.png' src="screenshot/embedded12.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded13.png' src="screenshot/embedded13.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters the Username "99761888"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded14.png' src="screenshot/embedded14.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded15.png' src="screenshot/embedded15.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded16.png' src="screenshot/embedded16.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="28"><span class="badge log pass-bg mr-2">Pass</span>Validate Username in Login page</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded17.png' src="screenshot/embedded17.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user launch the Amazon website</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded18.png' src="screenshot/embedded18.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded19.png' src="screenshot/embedded19.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enter the UserName "9976188853"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded20.png' src="screenshot/embedded20.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded21.png' src="screenshot/embedded21.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User click on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded22.png' src="screenshot/embedded22.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded23.png' src="screenshot/embedded23.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enter the password "9788188673"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded24.png' src="screenshot/embedded24.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded25.png' src="screenshot/embedded25.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User click on the login button and its navigate to my account page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded26.png' src="screenshot/embedded26.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded27.png' src="screenshot/embedded27.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User click on signout buttons</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded28.png' src="screenshot/embedded28.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded29.png' src="screenshot/embedded29.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters the Username "99761889"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded30.png' src="screenshot/embedded30.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded31.png' src="screenshot/embedded31.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded32.png' src="screenshot/embedded32.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="53"><span class="badge log pass-bg mr-2">Pass</span>Validate Username in Login page</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded33.png' src="screenshot/embedded33.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user launch the Amazon website</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded34.png' src="screenshot/embedded34.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded35.png' src="screenshot/embedded35.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enter the UserName "9976188853"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded36.png' src="screenshot/embedded36.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded37.png' src="screenshot/embedded37.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User click on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded38.png' src="screenshot/embedded38.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded39.png' src="screenshot/embedded39.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enter the password "9788188673"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded40.png' src="screenshot/embedded40.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded41.png' src="screenshot/embedded41.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User click on the login button and its navigate to my account page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded42.png' src="screenshot/embedded42.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded43.png' src="screenshot/embedded43.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User click on signout buttons</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded44.png' src="screenshot/embedded44.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded45.png' src="screenshot/embedded45.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters the Username "9976188853"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded46.png' src="screenshot/embedded46.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded47.png' src="screenshot/embedded47.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded48.png' src="screenshot/embedded48.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="78"><span class="badge log pass-bg mr-2">Pass</span>Validate password in Login page</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="scenario_outline collapse">
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="79"><span class="badge log pass-bg mr-2">Pass</span>Validate password in Login page</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded49.png' src="screenshot/embedded49.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user launch the Amazon website</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded50.png' src="screenshot/embedded50.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded51.png' src="screenshot/embedded51.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enter the UserName "9976188853"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded52.png' src="screenshot/embedded52.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded53.png' src="screenshot/embedded53.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User click on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded54.png' src="screenshot/embedded54.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded55.png' src="screenshot/embedded55.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enter the password "9788188673"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded56.png' src="screenshot/embedded56.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded57.png' src="screenshot/embedded57.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User click on the login button and its navigate to my account page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded58.png' src="screenshot/embedded58.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded59.png' src="screenshot/embedded59.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User click on signout button in the signout field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded60.png' src="screenshot/embedded60.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded61.png' src="screenshot/embedded61.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enter the valid Usernames "username"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded62.png' src="screenshot/embedded62.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded63.png' src="screenshot/embedded63.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the signin button and its navigates to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded64.png' src="screenshot/embedded64.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded65.png' src="screenshot/embedded65.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters the passwords "password"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded66.png' src="screenshot/embedded66.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded67.png' src="screenshot/embedded67.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User click on  login button and its navigates to my account page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded68.png' src="screenshot/embedded68.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="110"><span class="badge log pass-bg mr-2">Pass</span>Validate password in Login page</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded69.png' src="screenshot/embedded69.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user launch the Amazon website</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded70.png' src="screenshot/embedded70.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded71.png' src="screenshot/embedded71.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enter the UserName "9976188853"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded72.png' src="screenshot/embedded72.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded73.png' src="screenshot/embedded73.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User click on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded74.png' src="screenshot/embedded74.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded75.png' src="screenshot/embedded75.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enter the password "9788188673"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded76.png' src="screenshot/embedded76.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded77.png' src="screenshot/embedded77.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User click on the login button and its navigate to my account page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded78.png' src="screenshot/embedded78.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded79.png' src="screenshot/embedded79.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User click on signout button in the signout field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded80.png' src="screenshot/embedded80.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded81.png' src="screenshot/embedded81.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enter the valid Usernames "username"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded82.png' src="screenshot/embedded82.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded83.png' src="screenshot/embedded83.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the signin button and its navigates to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded84.png' src="screenshot/embedded84.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded85.png' src="screenshot/embedded85.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters the passwords "password"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded86.png' src="screenshot/embedded86.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded87.png' src="screenshot/embedded87.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User click on  login button and its navigates to my account page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded88.png' src="screenshot/embedded88.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+            <div class="card-body l1">
+              <div class="card-header">
+                <div class="card-title outline-child">
+                  <div class="node" id="141"><span class="badge log pass-bg mr-2">Pass</span>Validate password in Login page</div>
+                    <div class="status-avatar float-right">
+                      <i class="fa fa-paperclip"></i>
+                    </div>
+                </div>
+              </div>
+              <div class="card-body mt-3 collapse">
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded89.png' src="screenshot/embedded89.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Given user launch the Amazon website</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded90.png' src="screenshot/embedded90.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded91.png' src="screenshot/embedded91.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User Enter the UserName "9976188853"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded92.png' src="screenshot/embedded92.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded93.png' src="screenshot/embedded93.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User click on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded94.png' src="screenshot/embedded94.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded95.png' src="screenshot/embedded95.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enter the password "9788188673"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded96.png' src="screenshot/embedded96.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded97.png' src="screenshot/embedded97.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User click on the login button and its navigate to my account page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded98.png' src="screenshot/embedded98.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded99.png' src="screenshot/embedded99.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>When User click on signout button in the signout field</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded100.png' src="screenshot/embedded100.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded101.png' src="screenshot/embedded101.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enter the valid Usernames "username"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded102.png' src="screenshot/embedded102.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded103.png' src="screenshot/embedded103.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User clicks on the signin button and its navigates to password page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded104.png' src="screenshot/embedded104.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded105.png' src="screenshot/embedded105.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>And User Enters the passwords "password"</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded106.png' src="screenshot/embedded106.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded107.png' src="screenshot/embedded107.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>Then User click on  login button and its navigates to my account page</span>
+      <div>
+      </div>
+                  </div>
+                  <div class="step pass-bg">
+                    <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded108.png' src="screenshot/embedded108.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+                  </div>
+              </div>
+            </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="172"><span class="badge log pass-bg mr-2">Pass</span>User Searching ikigai book</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded109.png' src="screenshot/embedded109.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_launch_the_Amazon_website()">
+                <span>Given user launch the Amazon website</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded110.png' src="screenshot/embedded110.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded111.png' src="screenshot/embedded111.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_Enter_the_UserName(java.lang.String)">
+                <span>When User Enter the UserName "9976188853"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded112.png' src="screenshot/embedded112.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded113.png' src="screenshot/embedded113.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_click_on_the_sign_in_button_and_its_navigate_to_password_page()">
+                <span>And User click on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded114.png' src="screenshot/embedded114.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded115.png' src="screenshot/embedded115.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_Enter_the_password(java.lang.String)">
+                <span>And User Enter the password "9788188673"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded116.png' src="screenshot/embedded116.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded117.png' src="screenshot/embedded117.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_click_on_the_login_button_and_its_navigate_to_my_account_page()">
+                <span>Then User click on the login button and its navigate to my account page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded118.png' src="screenshot/embedded118.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded119.png' src="screenshot/embedded119.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_click_on_the_categories_drop_down_and_user_select_on_the_book_option()">
+                <span>When user click on the categories drop down and user select on the book option</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded120.png' src="screenshot/embedded120.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded121.png' src="screenshot/embedded121.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_enter_the_ikigai_on_search_box()">
+                <span>And user enter the ikigai on search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded122.png' src="screenshot/embedded122.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded123.png' src="screenshot/embedded123.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_click_the_search_button()">
+                <span>And user click the search button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded124.png' src="screenshot/embedded124.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded125.png' src="screenshot/embedded125.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_select_the_ikigai_book()">
+                <span>And user select  the ikigai book</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded126.png' src="screenshot/embedded126.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded127.png' src="screenshot/embedded127.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_click_on_add_to_cart_button_and_It_Navigate_to_add_to_cart_page()">
+                <span>Then user click on  add to cart button and It Navigate to add to cart page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded128.png' src="screenshot/embedded128.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded129.png' src="screenshot/embedded129.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_click_on_log_out_buttons()">
+                <span>And User click on log out buttons</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded130.png' src="screenshot/embedded130.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+  <div class="card">
+    <div class="card-header" role="tab">
+      <div class="card-title">
+        <div class="node" id="206"><span class="badge log pass-bg mr-2">Pass</span>User enters invalid book name in search box and get unavailability</div>
+          <div class="status-avatar float-right mr-4">
+            <i class="fa fa-paperclip"></i>
+          </div>
+      </div>
+    </div>
+        <div class="collapse">
+          <div class="card-body">
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded131.png' src="screenshot/embedded131.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_launch_the_Amazon_website()">
+                <span>Given user launch the Amazon website</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded132.png' src="screenshot/embedded132.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded133.png' src="screenshot/embedded133.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_Enter_the_UserName(java.lang.String)">
+                <span>When User Enter the UserName "9976188853"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded134.png' src="screenshot/embedded134.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded135.png' src="screenshot/embedded135.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_click_on_the_sign_in_button_and_its_navigate_to_password_page()">
+                <span>And User click on the sign in button and its navigate to password page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded136.png' src="screenshot/embedded136.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded137.png' src="screenshot/embedded137.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_Enter_the_password(java.lang.String)">
+                <span>And User Enter the password "9788188673"</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded138.png' src="screenshot/embedded138.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded139.png' src="screenshot/embedded139.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_click_on_the_login_button_and_its_navigate_to_my_account_page()">
+                <span>Then User click on the login button and its navigate to my account page</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded140.png' src="screenshot/embedded140.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded141.png' src="screenshot/embedded141.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_enter_the_ikgi_on_search_box()">
+                <span>When user enter the ikgi on search box</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded142.png' src="screenshot/embedded142.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded143.png' src="screenshot/embedded143.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_click_on_search_button()">
+                <span>And user click on search button</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded144.png' src="screenshot/embedded144.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="BEFORE_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.beforeScreenshot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot before testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded145.png' src="screenshot/embedded145.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="com.stepdefination_ik.Ikigai_stepdefination.user_verify_the_book_and_get_unavailability_message()">
+                <span>Then user verify the book and get unavailability message</span>
+      <div>
+      </div>
+              </div>
+              <div class="step pass-bg" title="AFTER_STEP">
+                <span>com.stepdefination_ik.Ikigai_stepdefination.afterScreenShot(io.cucumber.java.Scenario)</span>
+      <div>sucessfuly takescreenshot after testcaes
+          <div class="row mb-3"><div class="col-md-3">
+<img data-featherlight='screenshot/embedded146.png' src="screenshot/embedded146.png">
+    
+    </div></div>
+</div>
+      <div>
+      </div>
+              </div>
+          </div>
+        </div>
+  </div>
+</div>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </div>
+<div class="test-content scrollable">
+<div class="test-content-tools">
+<ul><li><a class="back-to-test" href="#"><i class="fa fa-arrow-left"></i></a></li></ul>
+</div>
+<div class="test-content-detail"><div class="detail-body"></div></div>
+</div></div>
+<div class="test-wrapper row view category-view attributes-view">
+<div class="test-list">
+<div class="test-list-tools">
+<ul class="tools pull-left"><li><a href=""><span class="font-size-14">Category</span></a></li></ul>
+<ul class="tools text-right"><li><a href="#"><span class="badge badge-primary">5</span></a></li></ul>
+</div>
+<div class="test-list-wrapper scrollable">
+<ul class="test-list-item">
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@TestUserName</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TestUserName</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:31:51 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='3'>Validate Username in Login page</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.Validate Username in Login page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:32:05 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='28'>Validate Username in Login page</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.Validate Username in Login page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:32:19 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='53'>Validate Username in Login page</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.Validate Username in Login page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>4</span>
+</span>
+<p class="name">@reg</p>
+<p class="duration text-sm">4 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@reg</h4>
+<span status="pass" class='badge log pass-bg'>4 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:32:28 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='79'>Validate password in Login page</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.Validate password in Login page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:32:42 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='110'>Validate password in Login page</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.Validate password in Login page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:32:57 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='141'>Validate password in Login page</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.Validate password in Login page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:33:12 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='172'>User Searching ikigai book</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.User Searching ikigai book</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TestUnavailabilty</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TestUnavailabilty</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:33:33 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='206'>User enters invalid book name in search box and get unavailability</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.User enters invalid book name in search box and get unavailability</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>1</span>
+</span>
+<p class="name">@TestIkigaibook</p>
+<p class="duration text-sm">1 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TestIkigaibook</h4>
+<span status="pass" class='badge log pass-bg'>1 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:33:12 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='172'>User Searching ikigai book</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.User Searching ikigai book</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+<li class="test-item">
+<div class="test-detail">
+<span class="meta">
+<span class='badge log pass-bg'>3</span>
+</span>
+<p class="name">@TestUserpassword</p>
+<p class="duration text-sm">3 tests</p>
+</div>
+<div class="test-contents d-none">
+<div class="info">
+<h4>@TestUserpassword</h4>
+<span status="pass" class='badge log pass-bg'>3 passed</span>
+</div>
+<table class='table table-sm mt-4'>
+<thead>
+<tr>
+<th class="status-col">Status</th>
+<th class="timestamp-col">Timestamp</th>
+<th>TestName</th>
+</tr>
+</thead>
+<tbody>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:32:28 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='79'>Validate password in Login page</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.Validate password in Login page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:32:42 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='110'>Validate password in Login page</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.Validate password in Login page</span>
+</div>
+</td>
+</tr>
+<tr class="tag-test-status" status="pass">
+<td><span class="badge log pass-bg">Pass</span></td>
+<td>10:32:57 am</td>
+<td>
+<a href="#" class="linked" test-id='1' id='141'>Validate password in Login page</a>
+<div class="">
+<span class="badge badge-default">To search for the ikigai book in amazon site.Validate password in Login page</span>
+</div>
+</td>
+</tr>
+</tbody>
+</table>
+</div>
+</li>
+</ul>
+</div>
+</div>
+<div class="test-content scrollable">
+<div class="test-content-detail">
+<div class="detail-body"></div>
+</div>
+</div>
+</div><div class="container-fluid p-4 view dashboard-view">
+<div class="row">
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Started</p>
+<h3>Sep 28, 2022 10:31:47</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0">Ended</p>
+<h3>Sep 28, 2022 10:33:41</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-pass">Features Passed</p>
+<h3>1</h3>
+</div></div>
+</div>
+<div class="col-md-3">
+<div class="card"><div class="card-body">
+<p class="m-b-0 text-fail">Features Failed</p>
+<h3>0</h3>
+</div></div>
+</div>
+</div>
+<div class="row">
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Features</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='parent-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'>
+<b>1</b> features passed
+</small>
+</div>
+<div>
+<small data-tooltip='0%'><b>0</b> features failed,
+<b>0</b> skipped, <b data-tooltip='0%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Scenarios</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='child-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>8</b> scenarios passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> scenarios failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+<div class="col-md-4">
+<div class="card">
+<div class="card-header">
+<h6 class="card-title">Steps</h6>
+</div>
+<div class="card-body">
+<div class="">
+<canvas id='grandchild-analysis' width='115' height='90'></canvas>
+</div>
+</div>
+<div class="card-footer">
+<div><small data-tooltip='100%'><b>219</b> steps passed</small></div>
+<div>
+<small data-tooltip='0%'><b>0</b> steps failed,
+<b>0</b> skipped, <b data-tooltip='%'>0</b> others
+</small>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div class="row"><div class="col-md-12">
+<div class="card"><div class="card-header"><p>Timeline</p></div>
+<div class="card-body pt-0"><div>
+<canvas id="timeline" height="120"></canvas>
+</div></div>
+</div>
+</div></div>
+<script>
+var timeline = {
+"To search for the ikigai book in amazon site":110.574
+};
+</script>
+<div class="row">
+<div class="col-lg-6 col-md-12 category-container">
+<div class="card">
+<div class="card-header"><p>Tags</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Passed</th><th>Failed</th><th>Skipped</th><th>Others</th><th>Passed %</th></tr></thead><tbody>
+<tr>
+<td>@TestUserName</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@reg</td>
+<td>4</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TestUnavailabilty</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TestIkigaibook</td>
+<td>1</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+<tr>
+<td>@TestUserpassword</td>
+<td>3</td>
+<td>0</td>
+<td>0</td>
+<td>0</td>
+<td>100%</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
+</div>
+</div>
+<script>
+var statusGroup = {
+parentCount: 5,
+passParent: 1,
+failParent: 0,
+warningParent: 0,
+skipParent: 0,
+childCount: 5,
+passChild: 8,
+failChild: 0,
+warningChild: 0,
+skipChild: 0,
+infoChild: 0,
+grandChildCount: 5,
+passGrandChild: 219,
+failGrandChild: 0,
+warningGrandChild: 0,
+skipGrandChild: 0,
+infoGrandChild: 0,
+eventsCount: 5,
+};
+</script>        </div>
+      </div>
+    </div>
+  </div>
+<script src="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/js/spark-script.js"></script>
+<script type="text/javascript"></script></body>
+</html>
