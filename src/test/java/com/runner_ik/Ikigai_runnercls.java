@@ -12,7 +12,7 @@ import io.cucumber.junit.Cucumber;
 
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features="src/main/resources/ik.feature",glue="com.stepdefination_ik",monochrome=true,plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:Reports","pretty","html:Report/HTMLReport.html" })
+@CucumberOptions(features="src/main/resources",glue="com.stepdefination_ik",tags="@TestIkigaibook",monochrome=true,plugin= {"com.aventstack.extentreports.cucumber.adapter.ExtentCucumberAdapter:Reports","pretty","html:Report/HTMLReport.html" })
 public class Ikigai_runnercls {
 public static WebDriver driver;
 	

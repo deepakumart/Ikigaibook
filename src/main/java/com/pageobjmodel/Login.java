@@ -16,6 +16,12 @@ public class Login {
 	@FindBy(xpath="//input[@type='email']")
 	private WebElement  invalidemail;
 	
+	@FindBy(xpath = "//a[@data-csa-c-content-id='nav_ya_signin']")
+    private WebElement userName;
+	
+	public WebElement getUserName() {
+		return userName;
+	}
 	@FindBy(xpath="//input[@id='continue']")
 	private WebElement  continue1;
 	
@@ -62,6 +68,27 @@ public class Login {
 	@FindBy(xpath="//input[@id='signInSubmit']")
 	private WebElement  login1;
 	
+	@FindBy(xpath = "//h4[text()='Incorrect phone number']")
+	private WebElement validationUsername;
+	
+	@FindBy(xpath = "//span[@class='a-list-item']")
+	private WebElement validationPass;
+    
+	@FindBy(xpath = "(//span[@class='nav-line-1 nav-progressive-content'])[2]")
+	private WebElement validationHome;
+
+	public WebElement getvalidationusername() {
+		return validationUsername;
+	}
+
+	public WebElement getValidationPassword() {
+		return validationPass;
+	}
+
+	public WebElement getvalidationHome() {
+		return validationHome;
+	}
+
 	public WebDriver getDriver() {
 		return driver;
 	}

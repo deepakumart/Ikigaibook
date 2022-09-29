@@ -81,9 +81,9 @@ public static WebDriver driver;
 	}
 	public static void ass(WebElement as,String value) {
 		String text = as.getText();
-		System.out.println(text);
+
 		Assert.assertEquals(value,text);
-		System.out.println("Elements  has been verified");
+		System.out.println("Elements  has been verified :" +text);
 		
 	}
 	public static void dropdown(WebElement element,String value,String type) {
